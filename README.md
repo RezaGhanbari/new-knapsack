@@ -1,1 +1,1 @@
-## Approximate and dynamic method of knapsack problem 
+## Approximate and recursive dynamic method of knapsack problem 
