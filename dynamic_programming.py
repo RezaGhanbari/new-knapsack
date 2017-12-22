@@ -3,20 +3,6 @@ from decorators import memoized
 
 
 def dynamic_programming(number, capacity, weight_cost):
-    """
-    Solve the knapsack problem by finding the most valuable
-    subsequence of `weight_cost` subject that weighs no more than
-    `capacity`.
-
-    Top-down solution from: http://codereview.stackexchange.com/questions/20569/dynamic-programming-solution-to-knapsack-problem
-
-    :param weight_cost: is a sequence of pairs (weight, cost)
-    :param capacity: is a non-negative integer
-
-    :return: a pair whose first element is the sum of costs in the best combination,
-    and whose second element is the combination.
-    """
-
     # Return the value of the most valuable subsequence of the first i
     # elements in items whose weights sum to no more than j.
     @memoized
