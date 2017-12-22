@@ -1,1 +1,1 @@
-# new-knapsack
+## Approximate and dynamic method of knapsack problem 
